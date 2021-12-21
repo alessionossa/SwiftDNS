@@ -3,9 +3,11 @@
 
 ## Installation
 
-### CocoaPods
+### Swift Package Manager
 ```
-pod 'SwiftDNS', '~> 0.3.0'
+dependencies: [
+    .package(url: "https://github.com/alessionossa/SwiftDNS.git", .upToNextMajor(from: "1.0.0"))
+]
 ```
 
 ## Quick Start
