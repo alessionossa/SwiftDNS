@@ -14,9 +14,6 @@ enum DNSServiceError: Error {
     case responseNotComplete
 }
 
-// https://developer.apple.com/documentation/network
-@available(macOS 10.14, *)
-@available(iOS 12, *)
 public class DNSService {
     
     
